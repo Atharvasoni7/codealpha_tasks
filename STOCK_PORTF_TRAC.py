@@ -1,3 +1,6 @@
+#A Stock Portfolio Tracking tool that allows users
+#to add, remove, and track the performance of their
+#stock investments.
 import yfinance as yf
 import tkinter as tk
 from tkinter import messagebox, ttk
