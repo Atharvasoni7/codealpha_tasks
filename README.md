@@ -30,6 +30,7 @@ _Choose an action:_
 (N)o action: Exits the script without making any changes.
 
 **KEY MODIFICATIONS**
+
 _File Type Filtering:_
 Added an input prompt to specify file extensions for filtering. Modified the find_duplicates function to only consider files with the specified extensions.
 
