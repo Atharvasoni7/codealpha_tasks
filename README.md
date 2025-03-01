@@ -14,7 +14,6 @@ stock investments.
 Duplicate Finder Script
 This script scans a given directory for duplicate files based on their MD5 hash. It provides options to delete or move the duplicate files to another directory.
 
----------------------
 **Features:**
 Scan a directory recursively for duplicate files.
 Filter files by minimum size.
@@ -30,7 +29,6 @@ _Choose an action:_
 (M)ove: Moves all but one of each set of duplicate files to another directory.
 (N)o action: Exits the script without making any changes.
 
-------------------------
 **KEY MODIFICATIONS**
 _File Type Filtering:_
 Added an input prompt to specify file extensions for filtering. Modified the find_duplicates function to only consider files with the specified extensions.
